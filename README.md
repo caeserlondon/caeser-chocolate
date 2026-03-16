@@ -1,13 +1,13 @@
-# 🍫 Caesar Chocolate
+# 🍫 Caeser Chocolate
 
 <p align="center">
-  <img src="./assets/chocolate-collection.png" alt="Caesar Homepage" width="49%" />
+  <img src="./assets/chocolate-collection.png" alt="Caeser Homepage" width="49%" />
   <img src="./assets/chocolate-footer.png" alt="Chocolate Footer" width="49%" style="margin-left: 1%;" />
 </p>
 
 A modern chocolate brand landing page built with **Next.js 16**, **React 19**, **TypeScript**, and **Tailwind CSS 4**.
 
-**Caesar Chocolate** was created as a portfolio project to demonstrate my **design eye**, **front-end engineering skills**, and ability to build polished, high-performance user experiences with modern web technologies. The project focuses on elegant visual presentation, clean layout structure, responsive design, and a smooth user experience from top to bottom.
+**Caeser Chocolate** was created as a portfolio project to demonstrate my **design eye**, **front-end engineering skills**, and ability to build polished, high-performance user experiences with modern web technologies. The project focuses on elegant visual presentation, clean layout structure, responsive design, and a smooth user experience from top to bottom.
 
 This project also achieved a **full Lighthouse score**, with **100% green results across Performance, Accessibility, Best Practices, and SEO** — including excellent **Web Vitals**.
 
@@ -17,7 +17,14 @@ This project also achieved a **full Lighthouse score**, with **100% green result
 
 ## About the Project
 
-Caesar Chocolate is a premium-style promotional website designed to showcase a luxury chocolate brand. The goal was to create something visually rich and memorable, while still keeping the codebase clean, maintainable, and performant.
+<p align="center">
+  <img src="./assets/gtmetrix.png" alt="Caeser Chocolate GTmetrix results" width="49%" />
+  <img src="./assets/page-speed-insite.png" alt="Caeser Chocolate PageSpeed Insights results" width="49%" style="margin-left: 1%;" />
+</p>
+
+Caeser Chocolate is a premium-style promotional website designed to showcase a luxury chocolate brand. The goal was to create something visually rich and memorable, while still keeping the codebase clean, maintainable, and performant.
+
+The site achieved **full scores across major testing categories**, including **Performance, Accessibility, Best Practices, SEO, and excellent Web Vitals**, showing that the project was built not only to look refined and high-end, but also to perform at an exceptional standard.
 
 The site was built to highlight:
 
@@ -74,13 +81,13 @@ Everything is fully green in Lighthouse, with excellent Web Vitals performance.
 
 ## Design Notes
 
-The visual direction for Caesar Chocolate was inspired by premium product branding — rich imagery, clean typography, strong contrast, and elegant spacing. The aim was to make the site feel refined and high-end while keeping the experience lightweight and fast.
+The visual direction for Caeser Chocolate was inspired by premium product branding — rich imagery, clean typography, strong contrast, and elegant spacing. The aim was to make the site feel refined and high-end while keeping the experience lightweight and fast.
 
 Every section was built with performance and presentation in mind, so the final result feels polished without sacrificing speed.
 
 ## Why I Built It
 
-I built Caesar Chocolate as a focused front-end project to demonstrate both my **creative design sense** and my **engineering ability**. It reflects the kind of product-focused UI work I enjoy most: clean, modern, visually engaging interfaces backed by solid implementation.
+I built Caeser Chocolate as a focused front-end project to demonstrate both my **creative design sense** and my **engineering ability**. It reflects the kind of product-focused UI work I enjoy most: clean, modern, visually engaging interfaces backed by solid implementation.
 
 ## Author
 
