@@ -8,11 +8,12 @@ type TestimonialCardProps = {
 export function TestimonialCard({ testimonial }: TestimonialCardProps) {
 	return (
 		<article className='rounded-[16px] border border-[#8f6634] bg-[linear-gradient(180deg,rgba(57,20,12,0.62),rgba(30,10,6,0.56))] px-5 py-4 shadow-[0_14px_30px_rgba(0,0,0,0.16)] transition duration-300 hover:border-[#b88c4d] lg:px-6 lg:py-4'>
-			<p
-				className={`${serif.className} text-[1.7rem] leading-none text-[#d8ad63]`}
+			<span
+				aria-hidden='true'
+				className={`${serif.className} block text-[1.7rem] leading-none text-[#d8ad63]`}
 			>
 				“
-			</p>
+			</span>
 
 			<p className='mt-1.5 text-[0.92rem] leading-5 text-[#f0e2c4] lg:text-[0.95rem]'>
 				{testimonial.quote}
