@@ -15,16 +15,18 @@ This project also achieved a **full Lighthouse score**, with **100% green result
 
 **Live Demo:** [caeser-chocolate.vercel.app](https://caeser-chocolate.vercel.app/)
 
-## About the Project
+## Web Vitals
 
 <p align="center">
   <img src="./assets/gtmetrix.png" alt="Caeser Chocolate GTmetrix results" width="49%" />
   <img src="./assets/page-speed-insite.png" alt="Caeser Chocolate PageSpeed Insights results" width="49%" style="margin-left: 1%;" />
 </p>
 
-Caeser Chocolate is a premium-style promotional website designed to showcase a luxury chocolate brand. The goal was to create something visually rich and memorable, while still keeping the codebase clean, maintainable, and performant.
-
 The site achieved **full scores across major testing categories**, including **Performance, Accessibility, Best Practices, SEO, and excellent Web Vitals**, showing that the project was built not only to look refined and high-end, but also to perform at an exceptional standard.
+
+## About the Project
+
+Caeser Chocolate is a premium-style promotional website designed to showcase a luxury chocolate brand. The goal was to create something visually rich and memorable, while still keeping the codebase clean, maintainable, and performant.
 
 The site was built to highlight:
 
