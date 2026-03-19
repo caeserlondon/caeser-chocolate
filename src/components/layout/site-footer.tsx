@@ -19,6 +19,8 @@ export function SiteFooter() {
 			</div>
 
 			<div className='relative mx-auto max-w-[1400px] px-6 pb-14 pt-16 lg:px-14'>
+				<h2 className='sr-only'>Footer</h2>
+
 				<div className='grid grid-cols-1 gap-12 md:grid-cols-[1.2fr_0.8fr_0.8fr_1.2fr]'>
 					<div className='flex items-start'>
 						<Image
@@ -31,8 +33,13 @@ export function SiteFooter() {
 						/>
 					</div>
 
-					<div>
-						<h3 className='text-lg font-medium text-[#e1bd79]'>Explore</h3>
+					<nav aria-labelledby='footer-explore'>
+						<h3
+							id='footer-explore'
+							className='text-lg font-medium text-[#e1bd79]'
+						>
+							Explore
+						</h3>
 						<ul className='mt-4 space-y-3 text-[1rem] text-[#efdfbe]'>
 							{navigation.map((item) => (
 								<li key={item.href}>
@@ -45,10 +52,15 @@ export function SiteFooter() {
 								</li>
 							))}
 						</ul>
-					</div>
+					</nav>
 
-					<div>
-						<h3 className='text-lg font-medium text-[#e1bd79]'>Social Media</h3>
+					<section aria-labelledby='footer-social'>
+						<h3
+							id='footer-social'
+							className='text-lg font-medium text-[#e1bd79]'
+						>
+							Social Media
+						</h3>
 						<div className='mt-4 flex items-center gap-3'>
 							<SocialIcon label='GitHub' href='https://github.com/caeserlondon'>
 								<Github className='h-[18px] w-[18px]' strokeWidth={2.1} />
@@ -68,10 +80,13 @@ export function SiteFooter() {
 								<Globe className='h-[18px] w-[18px]' strokeWidth={2.1} />
 							</SocialIcon>
 						</div>
-					</div>
+					</section>
 
-					<div>
-						<h3 className='text-lg font-medium text-[#e1bd79]'>
+					<section aria-labelledby='footer-newsletter'>
+						<h3
+							id='footer-newsletter'
+							className='text-lg font-medium text-[#e1bd79]'
+						>
 							Subscribe to our newsletter
 						</h3>
 
@@ -100,7 +115,7 @@ export function SiteFooter() {
 						<p className='mt-3 text-sm text-[#cdb387]'>
 							Subscribe for collection releases and chocolate notes.
 						</p>
-					</div>
+					</section>
 				</div>
 
 				<div className='mt-10 border-t border-[#7e5a31]/40 pt-5 text-center text-sm text-[#d7bb8a]'>
