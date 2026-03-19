@@ -39,11 +39,11 @@ export function BrandStory() {
 							redefine luxury.
 						</p>
 
-						<p
+						<h3
 							className={`${serif.className} mt-12 text-[2.1rem] italic tracking-[0.01em] text-[#d7ac61] sm:text-[2.5rem]`}
 						>
-							The Caeser Family
-						</p>
+							Caeser Ibrahim
+						</h3>
 					</div>
 				</div>
 			</div>
