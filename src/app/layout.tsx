@@ -1,11 +1,17 @@
 import { sans } from '@/lib/fonts'
-import type { Metadata } from 'next'
 import './globals.css'
 
-export const metadata: Metadata = {
+export const metadata = {
+	metadataBase: new URL('https://caeser-chocolate.vercel.app'),
 	title: 'Caeser Chocolate',
-	description:
-		'Luxury handcrafted chocolate with refined gifting and artisanal excellence.',
+	description: 'Luxury chocolate brand landing page by Caeser Ibrahim.',
+	alternates: {
+		canonical: '/',
+	},
+	robots: {
+		index: true,
+		follow: true,
+	},
 }
 
 export default function RootLayout({
