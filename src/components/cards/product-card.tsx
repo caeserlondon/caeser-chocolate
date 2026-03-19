@@ -17,7 +17,7 @@ export function ProductCard({ product }: ProductCardProps) {
 			<div className='relative mx-auto mt-5 flex h-[360px] w-full max-w-[250px] items-end justify-center'>
 				<Image
 					src={product.image}
-					alt={product.name}
+					alt=''
 					width={500}
 					height={700}
 					className='h-full w-auto object-contain drop-shadow-[0_18px_30px_rgba(0,0,0,0.35)]'
