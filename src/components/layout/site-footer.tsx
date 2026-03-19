@@ -76,11 +76,19 @@ export function SiteFooter() {
 						</h3>
 
 						<form className='mt-4 flex max-w-[360px] items-stretch overflow-hidden rounded-md border border-[#9e7440] bg-[rgba(30,14,9,0.78)]'>
+							<label htmlFor='email' className='sr-only'>
+								Email address
+							</label>
+
 							<input
+								id='email'
+								name='email'
 								type='email'
 								placeholder='Enter your email'
+								autoComplete='email'
 								className='w-full bg-transparent px-4 py-3 text-[#f5e7c4] outline-none placeholder:text-[#c4aa7c]'
 							/>
+
 							<button
 								type='submit'
 								className='border-l border-[#9b6f35] bg-[linear-gradient(180deg,#e1b866_0%,#c88f3f_100%)] px-5 text-[#2b160d] transition hover:brightness-105'
