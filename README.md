@@ -22,6 +22,11 @@ This project also achieved a **full Lighthouse score**, with **100% green result
   <img src="./assets/page-speed-insite.png" alt="Caeser Chocolate PageSpeed Insights results" width="49%" style="margin-left: 1%;" />
 </p>
 
+<p align="center">
+  <img src="./assets/wave-test.png" alt="Caeser Chocolate wave results" width="49%" />
+  <img src="./assets/axe-core.png" alt="Caeser Chocolate axe core results" width="49%" style="margin-left: 1%;" />
+</p>
+
 The site achieved **full scores across major testing categories**, including **Performance, Accessibility, Best Practices, SEO, and excellent Web Vitals**, showing that the project was built not only to look refined and high-end, but also to perform at an exceptional standard.
 
 ## About the Project
